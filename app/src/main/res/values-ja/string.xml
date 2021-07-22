@@ -1,0 +1,272 @@
+<resources>
+    <string name="app_name">ここ気づい</string>
+
+    <string name="optionmenu_shop">ストリートショップ</string>
+    <string name="optionmenu_1">オプションメニュー1</string>
+    <string name="optionmenu_2">オプションメニュー2</string>
+    <string name="optionmenu_3">オプションメニュー3</string>
+
+    <string name="tabmenu_bottomtab_nearby_shops">周辺の店</string>
+    <string name="tabmenu_bottomtab_Favorites">お気に入り</string>
+    <string name="drawermenu_option_detailsearch_title">検索要件</string>
+    <string name="drawermenu_option_detailsearch_local">ローカル検索</string>
+    <string name="drawermenu_option_detailsearch_price">セールスプライス</string>
+    <string name="drawermenu_option_detailsearch_sectors">セクター</string>
+    <string name="drawermenu_option_detailsearch_cate">カテゴリー</string>
+    <string name="drawermenu_option_detailsearch_notice">(アプリを閉じるときに設定を初期化する)</string>
+    <string name="drawermenu_option_mapsetting_title">地図の設定</string>
+    <string name="drawermenu_option_mapsetting_etc">その他の設定</string>
+    <string name="drawermenu_option_mapsetting_radius">検索範囲</string>
+    <string name="drawermenu_option_mapsetting_mapmode">マップモード</string>
+    <string name="drawermenu_option_mapsetting_mapmode_normal">ベースマップ</string>
+    <string name="drawermenu_option_mapsetting_mapmode_terrain">地形図</string>
+    <string name="drawermenu_option_mapsetting_mapmode_hybrid">ハイブリッドマップ</string>
+    <string name="drawermenu_option_mapsetting_etc_thickness">円の厚さ</string>
+    <string name="drawermenu_option_mapsetting_etc_zoom_level">ズームレベル</string>
+    <string name="drawermenu_option_mapsetting_notice">(アプリを閉じるときに設定を維持する)</string>
+    <string name="drawermenu_setting_maintitle">設定</string>
+    <string name="drawermenu_setting_changelanguage">言語を変えてください</string>
+    <string name="drawermenu_setting_changetheme">テーマの変更</string>
+    <string name="drawermenu_setting_changeprofile">プロファイルの変更</string>
+    <string name="drawermenu_setting_qna">1:1のお問い合わせ</string>
+    <string name="drawermenu_setting_terms">利用規約</string>
+    <string name="drawermenu_setting_withdrawal">撤退</string>
+    <string name="text_tutorial_search_detail">高度な検索</string>
+    <string name="text_tutorial_call_searchbox">検索バーを呼び出す</string>
+    <string name="text_tutorial_change_service">サービスの変更</string>
+    <string name="text_tutorial_drag_resize">ドラッグしてサイズを変更</string>
+    <string name="text_tutorial_call_addon">メニュー呼び出しを追加</string>
+    <string name="text_tutorial_view_neverlook">楽しみにしないでください</string>
+
+    <string name="check_language">ja</string>
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--                               일반 텍스트관리                         -->
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <string name="text_ok">はい</string>
+    <string name="text_cancel">キャンセル</string>
+    <string name="text_apply">適用する</string>
+    <string name="text_change">変化する</string>
+    <string name="text_close">閉じる</string>
+    <string name="text_yes">はい</string>
+    <string name="text_no">いいえ</string>
+    <string name="text_retry">リトライ</string>
+    <string name="text_restart">再起動</string>
+    <string name="text_finish">仕上げる</string>
+    <string name="text_search">探す</string>
+    <string name="text_loading">お待ちください...</string>
+    <string name="text_loading_version_title">バージョン</string>
+    <string name="text_drawer_login_title">ログインが必要です</string>
+    <string name="text_drawer_logout_title">[ログアウト]</string>
+    <string name="text_drawer_management_store">店舗管理</string>
+    <string name="text_drawer_management_review">レビュー管理</string>
+    <string name="text_drawer_management_reservation">予約管理</string>
+    <string name="text_settings_language_now">(現在の言語)</string>
+    <string name="text_settings_language_change">言語</string>
+    <string name="text_settings_language_change_finish">変更されました</string>
+    <string name="text_settings_mode_daymode">光のテーマ</string>
+    <string name="text_settings_mode_darkmode">暗いテーマ</string>
+    <string name="text_settings_mode_now">(現在のテーマ)</string>
+    <string name="text_settings_mode_change">テーマ</string>
+    <string name="text_settings_mode_change_finish">変更されました</string>
+    <string name="text_settings_server">サーバ</string>
+    <string name="text_settings_permission">権限設定</string>
+    <string name="text_settings_event">イベント</string>
+    <string name="text_settings_notice">通知</string>
+    <string name="text_settings_certification">認証センター</string>
+    <string name="text_login_id">を</string>
+    <string name="text_login_id_hint">あなたの を</string>
+    <string name="text_login_pw">パスワード</string>
+    <string name="text_login_pw_hint">あなたの パスワード</string>
+    <string name="text_signup_email">メール</string>
+    <string name="text_signup_email_hint">あなたの メール</string>
+    <string name="text_signup_nickname">ニックネーム</string>
+    <string name="text_signup_nickname_hint">あなたの ニックネーム</string>
+    <string name="text_signup_customer">お客様</string>
+    <string name="text_signup_Entrepreneur">起業家</string>
+    <string name="text_login_button">ログイン</string>
+    <string name="text_signup_button">サインアップ</string>
+    <string name="text_login_signup">まだメンバーではありませんか?</string>
+    <string name="text_signup_login">私はIDを持っています!</string>
+    <string name="text_login_autologin">自動ログイン</string>
+    <string name="text_bottommenu_setmylocation">現在地へ</string>
+    <string name="text_bottommenu_searchmap_mapposition">現在の地図で検索</string>
+    <string name="text_bottommenu_realtime_gps_turn_on">リアルタイム GPS をオンにする</string>
+    <string name="text_bottommenu_realtime_gps_turn_off">リアルタイムGPSをオフにする</string>
+    <string name="text_bottommenu_cate_all">すべて</string>
+    <string name="text_markerdetail_view_moreinfo">クリックして詳細を表示</string>
+    <string name="text_markerdetail_moreinfo_number">電話 ></string>
+    <string name="text_markerdetail_moreinfo_findload">行き方を調べる ></string>
+    <string name="text_markerdetail_moreinfo_menu">代表メニュー</string>
+    <string name="text_markerdetail_moreinfo_storeinfo">会社の情報</string>
+    <string name="text_bottommenu_cate_dist">距離順に</string>
+    <string name="text_bottommenu_cate_evaluation">星評価</string>
+    <string name="text_bottommenu_cate_review">レビュー数</string>
+    <string name="text_allow_access_storage">アクセスを許可してください</string>
+    <string name="text_searchbox_alert">(検索語が入力されました)</string>
+    <string name="text_login_for_facebook">Facebookでログイン</string>
+    <string name="text_login_for_naver">Naverでログイン</string>
+    <string name="text_login_for_kakao">Kakaoでログイン</string>
+    <string name="text_login_for_google">Googleでログイン</string>
+    <string name="text_signup_for_facebook">Facebookにサインアップ</string>
+    <string name="text_signup_for_naver">Naverにサインアップ</string>
+    <string name="text_signup_for_kakao">Kakaoにサインアップ</string>
+    <string name="text_signup_for_google">Googleにサインアップ</string>
+    <string name="text_save_search">探す</string>
+    <string name="text_save_settings">設定を保存する</string>
+    <string name="text_option_localsearch_none"><![CDATA[―]]></string>
+    <string name="text_option_localsearch_ctp"><![CDATA[市 ∙ メトロポリスを]]></string>
+    <string name="text_option_localsearch_sig"><![CDATA[郡]]></string>
+    <string name="text_option_localsearch_emd"><![CDATA[町]]></string>
+    <string name="text_option_localsearch_set_ctp"><![CDATA[シティ ∙ メトロポリスを 選択してください]]></string>
+    <string name="text_option_localsearch_set_sig"><![CDATA[郡を 選択してください]]></string>
+    <string name="text_option_localsearch_set_emd"><![CDATA[町を 選択してください]]></string>
+    <string name="text_option_start_search_none">地域が選択されていません\n現在地に基づいて検索</string>
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--                               다이얼로그 텍스트관리                   -->
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <string name="common_wait_0MSG0101_loading_wait">お待ちください</string>
+
+    <string name="common_finish_1MSG0101_finish_title">やめたいですか?</string>
+    <string name="common_finish_1MSG0102_finish_finish">終了</string>
+    <string name="common_finish_1MSG0103_finish_cancel">キャンセル</string>
+
+    <string name="common_change_1MSG0101_change_title">変更しますか?</string>
+    <string name="common_change_1MSG0102_change_ok">変化する</string>
+    <string name="common_change_1MSG0103_change_cancel">キャンセル</string>
+
+    <string name="common_message_2MSG0201_common_ok">はい</string>
+    <string name="common_message_2MSG0202_common_cancel">キャンセル</string>
+    <string name="common_message_2MSG0203_common_finish">終了</string>
+
+    <string name="error_0CON0101_server_connect_network_title">インターネット接続を確認してください</string>
+    <string name="error_0CON0102_server_connect_network_errorcode">@string/error_connect_network_CON01</string>
+
+    <string name="error_0CON0201_server_connect_server_title">ごめんなさい\nサーバーでエラーが発生しました</string>
+    <string name="error_0CON0202_server_connect_server_errorcode">@string/error_connect_server_CON02</string>
+
+    <string name="error_0ERO0101_unusual_approach_title">これは珍しいアプローチです</string>
+
+    <string name="error_0ERO0201_language_change_title">ごめんなさい\nこの言語はサポートされていません</string>
+    <string name="error_0ERO0202_language_change_ok">はい</string>
+    <string name="error_0ERO0203_language_change_errorcode">@string/error_change_language_ERO02</string>
+
+    <string name="text_bottommenu_alerttitle_realtime_gps_turn_on">リアルタイム GPS モードをオンにしますか?\n(バッテリー/データ使用量が増加します)</string>
+    <string name="text_bottommenu_alerttitle_realtime_gps_turn_off">リアルタイム GPS モードをオフにしてもよろしいですか?</string>
+
+    <string name="text_list_alerttitle_nodata">データが存在しません</string>
+
+    <string name="text_permission_alerttitle_gps_denied">GPS 許可が拒否された場合\nアプリの機能が制限されます</string>
+    <string name="text_permission_alertcancelbtn_gps_denied">はい</string>
+    <string name="text_permission_alertokbtn_gps_denied">GPS許可設定</string>
+
+    <string name="text_checkfunction_alerttitle_gps_off">GPS がオフになっています\nGPSをオンにしてください</string>
+    <string name="text_checkfunction_alertcancelbtn_gps_off">GPSを受信しないで続行</string>
+    <string name="text_checkfunction_alertokbtn_gps_off">リトライ</string>
+
+    <string name="text_checkfunction_connect_reconnect">再接続</string>
+
+    <string name="text_checkfunction_alerttitle_gps_connect">GPSを受信できません</string>
+    <string name="text_checkfunction_alertokbtn_gps_connect">GPS リセット</string>
+
+    <string name="text_checkfunction_alerttitle_minimap_restart">ミニマップはすでに実行されています\ nそのストアで再起動しますか?</string>
+
+    <string name="text_permission_alerttitle_storage_denied">保管スペースの許可が必要です</string>
+
+    <string name="text_checkfunction_alerttitle_matching_memberinformation">一致するメンバー情報がありません</string>
+
+    <string name="text_checkfunction_alerttitle_missing_iddata">IDを入力してください</string>
+    <string name="text_checkfunction_alerttitle_missing_pwdata">パスワードを入力してください</string>
+    <string name="text_checkfunction_alerttitle_missing_nicknamedata">ニックネームを入力してください</string>
+
+    <string name="text_checkfunction_alerttitle_success_signup">会員登録に成功しました</string>
+
+    <string name="text_checkfunction_alerttitle_check_idpw">入力した情報をもう一度確認してください</string>
+    <string name="text_checkfunction_alerttitle_overlap_email">このメールは既に存在します</string>
+    <string name="text_checkfunction_alerttitle_overlap_nickname">このニックネームはすでに存在します</string>
+
+    <string name="text_checkfunction_alerttitle_overlap_id">このアカウントはすでに登録されています</string>
+
+    <string name="text_checkfunction_alerttitle_logout">ログアウトしますか?</string>
+
+    <string name="error_0ERO0301_profileupload_file_read_title">ごめんなさい\nファイル情報を読み取ることができませんでした</string>
+    <string name="error_0ERO0302_profileupload_file_read_errorcode">@string/error_profileupload_ERO03</string>
+
+    <string name="error_0ERO0401_profileupload_file_load_title">ファイルのアップロードに失敗しました\n(ファイルの読み込みに失敗しました)</string>
+    <string name="error_0ERO0402_profileupload_file_load_errorcode">@string/error_profileupload_ERO04</string>
+
+    <string name="error_0ERO0501_profileupload_malformed_url_title">ファイルのアップロードに失敗しました\n(無効なURL)</string>
+    <string name="error_0ERO0502_profileupload_malformed_url_errorcode">@string/error_profileupload_ERO05</string>
+
+    <string name="error_0ERO0601_profileupload_server_connect_title">ファイルのアップロードに失敗しました\n(サーバーに問題がありました)</string>
+    <string name="error_0ERO0602_profileupload_server_connect_errorcode">@string/error_profileupload_ERO06</string>
+
+    <string name="text_checkfunction_alerttitle_fileupload_success">ファイルのアップロードが成功しました</string>
+
+    <string name="text_finish_alerttitle_login_success">ログインしました</string>
+    <string name="text_finish_alerttitle_signup_success">あなたは登録されています</string>
+    <string name="text_checkfunction_alerttitle_signup_refusal">会員登録後は無料でご利用ください</string>
+
+    <string name="text_checkfunction_alerttitle_not_registered_id">[ここ気づい]の登録メンバーではありません\n入力した情報で登録しますか?</string>
+
+    <string name="text_checkfunction_alerttitle_login_for_facebook_loginfail">Facebookのログインに失敗しました\n問題が解決しない場合は、管理者に連絡してください</string>
+    <string name="text_checkfunction_alerttitle_login_for_naver_loginfail">Naverのログインに失敗しました\n問題が解決しない場合は、管理者に連絡してください</string>
+    <string name="text_checkfunction_alerttitle_login_for_kakao_loginfail">Kakaoのログインに失敗しました\n問題が解決しない場合は、管理者に連絡してください</string>
+    <string name="text_checkfunction_alerttitle_login_for_google_loginfail">Googleのログインに失敗しました\n問題が解決しない場合は、管理者に連絡してください</string>
+
+    <string name="text_checkfunction_alerttitle_login_for_facebook_loadingfail">Facebookメンバー情報のリクエストに失敗しました\n問題が解決しない場合は、管理者に連絡してください</string>
+    <string name="text_checkfunction_alerttitle_login_for_naver_loadingfail">Naverメンバー情報のリクエストに失敗しました\n問題が解決しない場合は、管理者に連絡してください</string>
+    <string name="text_checkfunction_alerttitle_login_for_kakao_loadingfail">Kakaoメンバー情報のリクエストに失敗しました\n問題が解決しない場合は、管理者に連絡してください</string>
+    <string name="text_checkfunction_alerttitle_login_for_google_loadingfail">Googleメンバー情報のリクエストに失敗しました\n問題が解決しない場合は、管理者に連絡してください</string>
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--                                배열 텍스트관리                         -->
+    <!--/////////////////////////////////////////////////////////////////////-->
+
+    <string-array name="array_store_registration_storecate_main">
+        <item>-- 업종 선택 --</item>
+        <item>포장마차</item>
+        <item>이동트럭</item>
+        <item>푸드트럭</item>
+        <item>좌판노점</item>
+        <item>기타 노점상</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_0">
+        <item>-- 메뉴 선택 --</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_1">
+        <item>붕어빵</item>
+        <item>호떡</item>
+        <item>옥수수</item>
+        <item>군고구마</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_2">
+        <item>통닭</item>
+        <item>족발</item>
+        <item>과일</item>
+        <item>채소</item>
+        <item>타코야끼</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_3">
+        <item>한식</item>
+        <item>일식</item>
+        <item>양식</item>
+        <item>퓨전</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_4">
+        <item>채소</item>
+        <item>생필품</item>
+        <item>골동품</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_5">
+        <item>기타</item>
+    </string-array>
+
+</resources>

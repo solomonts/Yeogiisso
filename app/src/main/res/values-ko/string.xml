@@ -1,0 +1,271 @@
+<resources>
+    <string name="app_name">여기있소</string>
+
+    <string name="optionmenu_shop">노점상</string>
+    <string name="optionmenu_1">옵션 메뉴1</string>
+    <string name="optionmenu_2">옵션 메뉴2</string>
+    <string name="optionmenu_3">옵션 메뉴3</string>
+
+    <string name="tabmenu_bottomtab_nearby_shops">주변 상점</string>
+    <string name="tabmenu_bottomtab_Favorites">즐겨 찾기</string>
+    <string name="drawermenu_option_detailsearch_title">검색 조건</string>
+    <string name="drawermenu_option_detailsearch_local">지역검색</string>
+    <string name="drawermenu_option_detailsearch_price">판매가격</string>
+    <string name="drawermenu_option_detailsearch_sectors">업종</string>
+    <string name="drawermenu_option_detailsearch_cate">카테고리</string>
+    <string name="drawermenu_option_detailsearch_notice">(앱 종료시 설정값 초기화)</string>
+    <string name="drawermenu_option_mapsetting_title">지도 설정</string>
+    <string name="drawermenu_option_mapsetting_etc">기타설정</string>
+    <string name="drawermenu_option_mapsetting_radius">검색반경</string>
+    <string name="drawermenu_option_mapsetting_mapmode">지도모드</string>
+    <string name="drawermenu_option_mapsetting_mapmode_normal">기본 지도</string>
+    <string name="drawermenu_option_mapsetting_mapmode_terrain">지형 지도</string>
+    <string name="drawermenu_option_mapsetting_mapmode_hybrid">하이브리드 지도</string>
+    <string name="drawermenu_option_mapsetting_etc_thickness">원 두께</string>
+    <string name="drawermenu_option_mapsetting_etc_zoom_level">줌 레벨</string>
+    <string name="drawermenu_option_mapsetting_notice">(앱 종료시 설정값 유지)</string>
+    <string name="drawermenu_setting_maintitle">설정</string>
+    <string name="drawermenu_setting_changelanguage">언어 변경</string>
+    <string name="drawermenu_setting_changetheme">테마 변경</string>
+    <string name="drawermenu_setting_changeprofile">회원정보 수정</string>
+    <string name="drawermenu_setting_qna">1:1 문의</string>
+    <string name="drawermenu_setting_terms">이용약관</string>
+    <string name="drawermenu_setting_withdrawal">회원탈퇴</string>
+    <string name="text_tutorial_search_detail">상세 검색</string>
+    <string name="text_tutorial_call_searchbox">검색창 호출</string>
+    <string name="text_tutorial_change_service">서비스 변경</string>
+    <string name="text_tutorial_drag_resize">드래그해서 크기조절</string>
+    <string name="text_tutorial_call_addon">추가메뉴 호출</string>
+    <string name="text_tutorial_view_neverlook">앞으로 보지 않기</string>
+
+    <string name="check_language">ko</string>
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--                               일반 텍스트관리                         -->
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <string name="text_ok">확인</string>
+    <string name="text_cancel">취소</string>
+    <string name="text_apply">적용</string>
+    <string name="text_change">변경</string>
+    <string name="text_close">닫기</string>
+    <string name="text_yes">예</string>
+    <string name="text_no">아니요</string>
+    <string name="text_retry">다시시도</string>
+    <string name="text_restart">다시시작</string>
+    <string name="text_finish">앱종료</string>
+    <string name="text_search">검색</string>
+    <string name="text_loading">잠시만 기다려주세요...</string>
+    <string name="text_loading_version_title">버전</string>
+    <string name="text_drawer_login_title">로그인이 필요합니다</string>
+    <string name="text_drawer_logout_title">[로그아웃]</string>
+    <string name="text_drawer_management_store">점포 관리</string>
+    <string name="text_drawer_management_review">리뷰 관리</string>
+    <string name="text_drawer_management_reservation">예약 관리</string>
+    <string name="text_settings_language_now">(현재언어)</string>
+    <string name="text_settings_language_change">언어</string>
+    <string name="text_settings_language_change_finish">변경되었습니다</string>
+    <string name="text_settings_mode_daymode">라이트테마</string>
+    <string name="text_settings_mode_darkmode">다크테마</string>
+    <string name="text_settings_mode_now">(현재테마)</string>
+    <string name="text_settings_mode_change">테마</string>
+    <string name="text_settings_mode_change_finish">변경되었습니다</string>
+    <string name="text_settings_server">접속서버</string>
+    <string name="text_settings_permission">권한 설정</string>
+    <string name="text_settings_event">이벤트</string>
+    <string name="text_settings_notice">공지사항</string>
+    <string name="text_settings_certification">인증 센터</string>
+    <string name="text_login_id">아이디</string>
+    <string name="text_login_id_hint">사용자 아이디</string>
+    <string name="text_login_pw">비밀번호</string>
+    <string name="text_login_pw_hint">사용자 비밀번호</string>
+    <string name="text_signup_email">이메일</string>
+    <string name="text_signup_email_hint">사용자 이메일</string>
+    <string name="text_signup_nickname">닉네임</string>
+    <string name="text_signup_nickname_hint">사용자 닉네임</string>
+    <string name="text_signup_customer">개인</string>
+    <string name="text_signup_Entrepreneur">사업자</string>
+    <string name="text_login_button">로그인</string>
+    <string name="text_signup_button">회원가입</string>
+    <string name="text_login_signup">아직 회원이 아니세요?</string>
+    <string name="text_signup_login">아이디가 있습니다!</string>
+    <string name="text_login_autologin">자동로그인</string>
+    <string name="text_bottommenu_setmylocation">내 위치로</string>
+    <string name="text_bottommenu_searchmap_mapposition">현재 지도에서 검색</string>
+    <string name="text_bottommenu_realtime_gps_turn_on">실시간GPS 켜기</string>
+    <string name="text_bottommenu_realtime_gps_turn_off">실시간GPS 끄기</string>
+    <string name="text_bottommenu_cate_all">전체</string>
+    <string name="text_markerdetail_view_moreinfo">클릭하여 상세정보 보기</string>
+    <string name="text_markerdetail_moreinfo_number">전화 ></string>
+    <string name="text_markerdetail_moreinfo_findload">길찾기 ></string>
+    <string name="text_markerdetail_moreinfo_menu">대표메뉴</string>
+    <string name="text_markerdetail_moreinfo_storeinfo">업체정보</string>
+    <string name="text_bottommenu_cate_dist">거리순</string>
+    <string name="text_bottommenu_cate_evaluation">별점순</string>
+    <string name="text_bottommenu_cate_review">리뷰수</string>
+    <string name="text_allow_access_storage">액세스 권한을 허용해 주세요</string>
+    <string name="text_searchbox_alert">(검색어가 입력되어 있습니다)</string>
+    <string name="text_login_for_facebook">페이스북 로그인</string>
+    <string name="text_login_for_naver">네이버 로그인</string>
+    <string name="text_login_for_kakao">카카오 로그인</string>
+    <string name="text_login_for_google">구글 로그인</string>
+    <string name="text_signup_for_facebook">페이스북 아이디로 회원가입</string>
+    <string name="text_signup_for_naver">네이버 아이디로 회원가입</string>
+    <string name="text_signup_for_kakao">카카오 아이디로 회원가입</string>
+    <string name="text_signup_for_google">구글 아이디로 회원가입</string>
+    <string name="text_save_search">조검 검색</string>
+    <string name="text_save_settings">설정 저장</string>
+    <string name="text_option_localsearch_none"><![CDATA[―]]></string>
+    <string name="text_option_localsearch_ctp"><![CDATA[시 ∙ 도]]></string>
+    <string name="text_option_localsearch_sig"><![CDATA[구 ∙ 군]]></string>
+    <string name="text_option_localsearch_emd"><![CDATA[읍 ∙ 면 ∙ 동]]></string>
+    <string name="text_option_localsearch_set_ctp"><![CDATA[시 ∙ 도 를 선택해 주세요]]></string>
+    <string name="text_option_localsearch_set_sig"><![CDATA[구 ∙ 군 을 선택해 주세요]]></string>
+    <string name="text_option_localsearch_set_emd"><![CDATA[읍 ∙ 면 ∙ 동 을 선택해 주세요]]></string>
+    <string name="text_option_start_search_none">지역이 선택되지 않았습니다\n현재위치를 기준으로 검색합니다</string>
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--                               다이얼로그 텍스트관리                   -->
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <string name="common_wait_0MSG0101_loading_wait">잠시만 기다려 주세요</string>
+
+    <string name="common_finish_1MSG0101_finish_title">종료하시겠습니까?</string>
+    <string name="common_finish_1MSG0102_finish_finish">앱종료</string>
+    <string name="common_finish_1MSG0103_finish_cancel">취소</string>
+
+    <string name="common_change_1MSG0101_change_title">변경하시겠습니까?</string>
+    <string name="common_change_1MSG0102_change_ok">변경</string>
+    <string name="common_change_1MSG0103_change_cancel">취소</string>
+
+    <string name="common_message_2MSG0201_common_ok">확인</string>
+    <string name="common_message_2MSG0202_common_cancel">취소</string>
+    <string name="common_message_2MSG0203_common_finish">종료</string>
+
+    <string name="error_0CON0101_server_connect_network_title">인터넷 연결상태를 확인해주세요</string>
+    <string name="error_0CON0102_server_connect_network_errorcode">@string/error_connect_network_CON01</string>
+
+    <string name="error_0CON0201_server_connect_server_title">죄송합니다\n서버접속에 문제가 발생했습니다</string>
+    <string name="error_0CON0202_server_connect_server_errorcode">@string/error_connect_server_CON02</string>
+
+    <string name="error_0ERO0101_unusual_approach_title">비정상적인 접근입니다</string>
+
+    <string name="error_0ERO0201_language_change_title">죄송합니다\n해당 언어는 지원하지 않습니다</string>
+    <string name="error_0ERO0202_language_change_ok">확인</string>
+    <string name="error_0ERO0203_language_change_errorcode">@string/error_change_language_ERO02</string>
+
+    <string name="text_bottommenu_alerttitle_realtime_gps_turn_on">실시간GPS모드를 키시겠습니까?\n(배터리/데이터사용량이 증가됩니다)</string>
+    <string name="text_bottommenu_alerttitle_realtime_gps_turn_off">실시간GPS모드를 끄시겠습니까?</string>
+
+    <string name="text_list_alerttitle_nodata">데이터가 존재하지 않습니다</string>
+
+    <string name="text_permission_alerttitle_gps_denied">GPS권한 거부 시\n앱 기능이 제한됩니다</string>
+    <string name="text_permission_alertcancelbtn_gps_denied">알겠습니다</string>
+    <string name="text_permission_alertokbtn_gps_denied">GPS권한 설정</string>
+
+    <string name="text_checkfunction_alerttitle_gps_off">GPS가 꺼져있습니다\nGPS를 켜주세요</string>
+    <string name="text_checkfunction_alertcancelbtn_gps_off">GPS수신없이 계속</string>
+    <string name="text_checkfunction_alertokbtn_gps_off">다시 시도</string>
+
+    <string name="text_checkfunction_connect_reconnect">다시 연결되었습니다</string>
+
+    <string name="text_checkfunction_alerttitle_gps_connect">GPS를 수신할 수 없습니다</string>
+    <string name="text_checkfunction_alertokbtn_gps_connect">GPS 재설정</string>
+
+    <string name="text_checkfunction_alerttitle_minimap_restart">이미 미니맵이 실행중입니다\n해당 점포로 다시시작하시겠습니까?</string>
+
+    <string name="text_permission_alerttitle_storage_denied">저장공간에 대한 권한이 필요합니다</string>
+
+    <string name="text_checkfunction_alerttitle_matching_memberinformation">일치하는 회원정보가 없습니다</string>
+    <string name="text_checkfunction_alerttitle_missing_iddata">아이디를 입력해 주세요</string>
+    <string name="text_checkfunction_alerttitle_missing_pwdata">비밀번호를 입력해 주세요</string>
+    <string name="text_checkfunction_alerttitle_missing_nicknamedata">닉네임을 입력해 주세요</string>
+
+    <string name="text_checkfunction_alerttitle_success_signup">회원가입에 성공하였습니다</string>
+
+    <string name="text_checkfunction_alerttitle_check_idpw">입력하신 정보를 다시 확인해주세요</string>
+    <string name="text_checkfunction_alerttitle_overlap_email">이미 존재하는 이메일 입니다</string>
+    <string name="text_checkfunction_alerttitle_overlap_nickname">이미 존재하는 닉네임 입니다</string>
+
+    <string name="text_checkfunction_alerttitle_overlap_id">이미 등록된 계정 입니다</string>
+
+    <string name="text_checkfunction_alerttitle_logout">로그아웃 하시겠습니까?</string>
+
+    <string name="error_0ERO0301_profileupload_file_read_title">죄송합니다\n해당 파일정보를 읽어올 수 없습니다</string>
+    <string name="error_0ERO0302_profileupload_file_read_errorcode">@string/error_profileupload_ERO03</string>
+
+    <string name="error_0ERO0401_profileupload_file_load_title">파일 업로드에 실패했습니다\n(해당 파일을 불러오지 못 했습니다)</string>
+    <string name="error_0ERO0402_profileupload_file_load_errorcode">@string/error_profileupload_ERO04</string>
+
+    <string name="error_0ERO0501_profileupload_malformed_url_title">파일 업로드에 실패했습니다\n(잘못된 URL 입니다)</string>
+    <string name="error_0ERO0502_profileupload_malformed_url_errorcode">@string/error_profileupload_ERO05</string>
+
+    <string name="error_0ERO0601_profileupload_server_connect_title">파일 업로드에 실패했습니다\n(서버에 문제가 발생했습니다)</string>
+    <string name="error_0ERO0602_profileupload_server_connect_errorcode">@string/error_profileupload_ERO06</string>
+
+    <string name="text_checkfunction_alerttitle_fileupload_success">파일 업로드에 성공했습니다</string>
+
+    <string name="text_finish_alerttitle_login_success">로그인 되었습니다</string>
+    <string name="text_finish_alerttitle_signup_success">회원가입 되었습니다</string>
+    <string name="text_checkfunction_alerttitle_signup_refusal">무료로 회원등록후 이용해주세요</string>
+
+    <string name="text_checkfunction_alerttitle_not_registered_id">[여기있소]에 등록된 회원이 아닙니다\n입력하신 정보로 등록하시겠습니까?</string>
+
+    <string name="text_checkfunction_alerttitle_login_for_facebook_loginfail">페이스북 로그인에 실패했습니다\n계속 문제발생시 관리자에게 문의해주세요</string>
+    <string name="text_checkfunction_alerttitle_login_for_naver_loginfail">네이버 로그인에 실패했습니다\n계속 문제발생시 관리자에게 문의해주세요</string>
+    <string name="text_checkfunction_alerttitle_login_for_kakao_loginfail">카카오 로그인에 실패했습니다\n계속 문제발생시 관리자에게 문의해주세요</string>
+    <string name="text_checkfunction_alerttitle_login_for_google_loginfail">구글 로그인에 실패했습니다\n계속 문제발생시 관리자에게 문의해주세요</string>
+
+    <string name="text_checkfunction_alerttitle_login_for_facebook_loadingfail">페이스북 회원정보 요청에 실패했습니다\n계속 문제발생시 관리자에게 문의해주세요</string>
+    <string name="text_checkfunction_alerttitle_login_for_naver_loadingfail">네이버 회원정보 요청에 실패했습니다\n계속 문제발생시 관리자에게 문의해주세요</string>
+    <string name="text_checkfunction_alerttitle_login_for_kakao_loadingfail">카카오 회원정보 요청에 실패했습니다\n계속 문제발생시 관리자에게 문의해주세요</string>
+    <string name="text_checkfunction_alerttitle_login_for_google_loadingfail">구글 회원정보 요청에 실패했습니다\n계속 문제발생시 관리자에게 문의해주세요</string>
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--                                배열 텍스트관리                         -->
+    <!--/////////////////////////////////////////////////////////////////////-->
+
+    <string-array name="array_store_registration_storecate_main">
+        <item>-- 업종 선택 --</item>
+        <item>포장마차</item>
+        <item>이동트럭</item>
+        <item>푸드트럭</item>
+        <item>좌판노점</item>
+        <item>기타 노점상</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_0">
+        <item>-- 메뉴 선택 --</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_1">
+        <item>붕어빵</item>
+        <item>호떡</item>
+        <item>옥수수</item>
+        <item>군고구마</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_2">
+        <item>통닭</item>
+        <item>족발</item>
+        <item>과일</item>
+        <item>채소</item>
+        <item>타코야끼</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_3">
+        <item>한식</item>
+        <item>일식</item>
+        <item>양식</item>
+        <item>퓨전</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_4">
+        <item>채소</item>
+        <item>생필품</item>
+        <item>골동품</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_5">
+        <item>기타</item>
+    </string-array>
+
+</resources>

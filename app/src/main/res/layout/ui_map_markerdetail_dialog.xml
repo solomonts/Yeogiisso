@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:background="@drawable/custom_border_bg_radius_all"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="15dp"
+                android:elevation="10dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_icon_appicon"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/iv_markerdetail_minimap"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_popup_minimap_toggle"
+                android:layout_marginRight="5dp"/>
+            <ImageView
+                android:id="@+id/iv_markerdetail_close"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_close"/>
+        </LinearLayout>
+    </FrameLayout>
+    <TextView
+        android:id="@+id/tv_markerdetail_storename"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_markerdetail_number"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:text="@string/text_markerdetail_moreinfo_number"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/main_concept_color"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tv_markerdetail_findroad"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:text="@string/text_markerdetail_moreinfo_findload"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/main_concept_color"
+            android:gravity="center"/>
+    </LinearLayout>
+    <View
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:background="@color/main_concept_color"></View>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_markerdetail_menu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:text="@string/text_markerdetail_moreinfo_menu"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/main_minor_color"
+            android:layout_marginLeft="3dp"/>
+        <TextView
+            android:id="@+id/tv_markerdetail_storeinfo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:text="@string/text_markerdetail_moreinfo_storeinfo"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginRight="3dp"/>
+    </LinearLayout>
+    <ViewFlipper
+        android:id="@+id/vf_markerdetail_detailinfo_mainframe"
+        android:layout_width="300dp"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="100dp">
+            <ScrollView
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:text="붕어빵 3개 - 2,000원
+                    \n호떡 1개 - 1,000원
+                    \n닭꼬치 1개 - 2,000원
+                    \n옥수수 1개 - 2,000원
+                    \n오뎅 1개 - 500원
+                    \n떡볶이 1컵 - 1,500원
+                    \n닭강정 소 - 3,000원
+                    \n닭강정 중 - 7,000원
+                    \n닭강정 대 - 10,000원"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="100dp">
+            <ScrollView
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:text="영업일 : 월, 화, 수, 목, 금
+                    \n휴무일 : 매수 토, 일
+                    \n오픈시간 : 10:00
+                    \n마감시간 : 19:00
+                    \n주소 : 서울특별시 영등포구 당산동4가"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+            </ScrollView>
+        </LinearLayout>
+    </ViewFlipper>
+
+</LinearLayout>

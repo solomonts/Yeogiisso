@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Yeogiisso" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/main_concept_color</item>
+        <item name="colorPrimaryVariant">@color/main_second_color</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/main_concept_color</item>
+        <item name="colorSecondaryVariant">@color/main_second_color</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="color_bg_maincardview">@color/dark_gray</item>
+        <item name="color_bg_drawer_option">@color/dark_gray</item>
+        <item name="color_bg_drawer_setting">@color/dark_gray</item>
+        <item name="color_bg_bottom_mainframe">@color/dark_gray</item>
+
+        <item name="color_common_secondcolor_white">@color/white</item>
+        <item name="color_common_secondcolor_black">@color/black</item>
+        <item name="color_common_secondcolor_conceptcolor">@color/main_concept_color</item>
+        <item name="color_common_black_conceptcolor">@color/main_concept_color</item>
+        <item name="color_common_black_softgray">@color/soft_gray</item>
+        <item name="color_common_black_gray">@color/gray</item>
+        <item name="color_common_black_darkgray">@color/dark_gray</item>
+        <item name="color_common_black_white">@color/white</item>
+        <item name="color_common_white_darkgray">@color/dark_gray</item>
+        <item name="color_common_conceptcolor_softgray">@color/soft_gray</item>
+        <item name="color_common_conceptcolor_gray">@color/gray</item>
+        <item name="color_common_conceptcolor_black">@color/black</item>
+        <item name="color_common_softgray_black">@color/black</item>
+    </style>
+
+    <style name="Transparent" parent="@style/Theme.Yeogiisso">
+        <!--Titlebar 없애는 옵션
+            true : Titlebar x
+            false : Titlebar o
+        -->
+        <!-- 투명정도를 나타내는 색-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <!--
+        android:backgroundDimEnabled
+        true - 반투명 검정 /  false - 완전 투명
+        -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!--EditText 커스텀-->
+    <style name="EditTextTheme" parent="Theme.Yeogiisso">
+        <item name="colorControlActivated">@color/main_concept_color</item> <!--선택된(포커스) 상태의 밑줄 색-->
+        <item name="colorControlNormal">@color/main_minor_color</item> <!--선택되지 않은 상태의 밑줄 색-->
+        <item name="android:textSelectHandle">@color/main_minor_color</item> <!--손잡이 부분 색상-->
+        <item name="android:textColorHighlight">@color/main_softminor_color</item> <!--텍스트 선택색-->
+        <!--<item name="android:textCursorDrawable">@color/main_minor_color</item>--> <!--커서(Cursor)색-->
+        <item name="android:textColor">@color/soft_gray</item> <!--텍스트 색-->
+    </style>
+
+    <!--NumberPicker 커스텀-->
+    <style name="NumberPickerTheme" parent="Theme.Yeogiisso">
+        <item name="android:textColorPrimary">@color/main_minor_color</item>
+        <item name="colorControlNormal">@color/main_concept_color</item>
+        <item name="android:textColorHighlight">@color/main_second_color</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+</resources>

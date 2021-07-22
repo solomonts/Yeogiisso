@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="-3dp"
+        android:right="-3dp"
+        android:top="-3dp"
+        android:left="-0dp">
+        <shape android:shape="rectangle" >
+            <solid android:color="?attr/color_bg_drawer_setting" />
+            <corners
+                android:topLeftRadius="15dp"
+                android:bottomLeftRadius="15dp"/>
+            <stroke
+                android:width="2dp"
+                android:color="@color/main_concept_color" />
+        </shape>
+    </item>
+</layer-list>

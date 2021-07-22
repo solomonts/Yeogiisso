@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+//////////////////////////////////////////////////////////////////////
+기존 자체 로그인 시스템 (추후 사용가능하도록 코드 유지)
+//////////////////////////////////////////////////////////////////////
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_border_bg_radius_all"
+    tools:context=".Ui_Main_Activity"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center">
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/text_login_id"
+            android:textColor="?attr/color_common_black_softgray"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text=" : "
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/text_login_id_hint"
+            android:textColor="@color/main_concept_color"
+            android:textSize="13dp"
+            android:maxLength="20"
+            android:textColorHint="@color/main_minor_color"
+            android:theme="@style/EditTextTheme"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_id"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        android:gravity="right|center">
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginRight="5dp">
+            <TextView
+                android:id="@+id/tv_id_errormark"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="!"
+                android:textSize="20dp"
+                android:textColor="@color/main_concept_color"
+                android:textStyle="bold"
+                android:gravity="right|center"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_id_error"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text=""
+            android:textColor="@color/main_concept_color"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:gravity="right|center"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_id"
+        android:gravity="center">
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/text_login_pw"
+            android:textColor="?attr/color_common_black_softgray"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text=" : "
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/et_pw"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/text_login_pw_hint"
+            android:textColor="@color/main_concept_color"
+            android:textSize="13dp"
+            android:maxLength="50"
+            android:inputType="textPassword"
+            android:textColorHint="@color/main_minor_color"
+            android:theme="@style/EditTextTheme"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_pw"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        android:gravity="right|center">
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginRight="5dp">
+            <TextView
+                android:id="@+id/tv_pw_errormark"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="!"
+                android:textSize="20dp"
+                android:textColor="@color/main_concept_color"
+                android:textStyle="bold"
+                android:gravity="right|center"
+                android:visibility="invisible"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_pw_error"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text=""
+            android:textColor="@color/main_concept_color"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:gravity="right|center"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_pw">
+        <TextView
+            android:id="@+id/tv_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/text_login_signup"
+            android:textColor="@color/main_concept_color"
+            android:textSize="12dp"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="215dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/text_login_button"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_login"
+        android:gravity="right">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/text_login_autologin"
+            android:textColor="@color/main_concept_color"
+            android:textSize="12dp"
+            android:gravity="center" />
+        <CheckBox
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_border_bg_radius_all"
+    tools:context=".Ui_Main_Activity"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iv_btn_login_kakao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

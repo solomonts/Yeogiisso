@@ -1,0 +1,272 @@
+<resources>
+    <string name="app_name">嘿</string>
+
+    <string name="optionmenu_shop">街铺</string>
+    <string name="optionmenu_1">选项菜单1</string>
+    <string name="optionmenu_2">选项菜单2</string>
+    <string name="optionmenu_3">选项菜单3</string>
+
+    <string name="tabmenu_bottomtab_nearby_shops">附近的商店</string>
+    <string name="tabmenu_bottomtab_Favorites">收藏夹</string>
+    <string name="drawermenu_option_detailsearch_title">搜索要求</string>
+    <string name="drawermenu_option_detailsearch_local">本地搜索</string>
+    <string name="drawermenu_option_detailsearch_price">销售价格</string>
+    <string name="drawermenu_option_detailsearch_sectors">部门</string>
+    <string name="drawermenu_option_detailsearch_cate">类别</string>
+    <string name="drawermenu_option_detailsearch_notice">(关闭应用程序时初始化设置)</string>
+    <string name="drawermenu_option_mapsetting_title">地图设置</string>
+    <string name="drawermenu_option_mapsetting_etc">其他设置</string>
+    <string name="drawermenu_option_mapsetting_radius">搜索半径</string>
+    <string name="drawermenu_option_mapsetting_mapmode">地图模式</string>
+    <string name="drawermenu_option_mapsetting_mapmode_normal">底图</string>
+    <string name="drawermenu_option_mapsetting_mapmode_terrain">地形图</string>
+    <string name="drawermenu_option_mapsetting_mapmode_hybrid">混合地图</string>
+    <string name="drawermenu_option_mapsetting_etc_thickness">圆的厚度</string>
+    <string name="drawermenu_option_mapsetting_etc_zoom_level">缩放级别</string>
+    <string name="drawermenu_option_mapsetting_notice">(关闭应用程序时保持设置)</string>
+    <string name="drawermenu_setting_maintitle">环境</string>
+    <string name="drawermenu_setting_changelanguage">改变语言</string>
+    <string name="drawermenu_setting_changetheme">更改主题</string>
+    <string name="drawermenu_setting_changeprofile">变更个人资料</string>
+    <string name="drawermenu_setting_qna">1:1 查询</string>
+    <string name="drawermenu_setting_terms">服务条款</string>
+    <string name="drawermenu_setting_withdrawal">退出</string>
+    <string name="text_tutorial_search_detail">高级搜索</string>
+    <string name="text_tutorial_call_searchbox">呼叫搜索栏</string>
+    <string name="text_tutorial_change_service">服务变更</string>
+    <string name="text_tutorial_drag_resize">拖动以调整大小</string>
+    <string name="text_tutorial_call_addon">添加菜单调用</string>
+    <string name="text_tutorial_view_neverlook">不要期待</string>
+
+    <string name="check_language">zh</string>
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--                               일반 텍스트관리                         -->
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <string name="text_ok">好的</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_apply">申请</string>
+    <string name="text_change">改变</string>
+    <string name="text_close">关闭</string>
+    <string name="text_yes">是的</string>
+    <string name="text_no">不</string>
+    <string name="text_retry">重试</string>
+    <string name="text_restart">重新开始</string>
+    <string name="text_finish">结束</string>
+    <string name="text_search">搜索</string>
+    <string name="text_loading">请稍等...</string>
+    <string name="text_loading_version_title">版本</string>
+    <string name="text_drawer_login_title">需要登录</string>
+    <string name="text_drawer_logout_title">[登出]</string>
+    <string name="text_drawer_management_store">店铺管理</string>
+    <string name="text_drawer_management_review">审核管理</string>
+    <string name="text_drawer_management_reservation">预订管理</string>
+    <string name="text_settings_language_now">(当前语言)</string>
+    <string name="text_settings_language_change">语</string>
+    <string name="text_settings_language_change_finish">已经变了</string>
+    <string name="text_settings_mode_daymode">轻主题</string>
+    <string name="text_settings_mode_darkmode">黑暗主题</string>
+    <string name="text_settings_mode_now">(当前主题)</string>
+    <string name="text_settings_mode_change">主题</string>
+    <string name="text_settings_mode_change_finish">已经变了</string>
+    <string name="text_settings_server">服务器</string>
+    <string name="text_settings_permission">权限设置</string>
+    <string name="text_settings_event">事件</string>
+    <string name="text_settings_notice">注意</string>
+    <string name="text_settings_certification">认证中心</string>
+    <string name="text_login_id">用户名</string>
+    <string name="text_login_id_hint">你的 用户名</string>
+    <string name="text_login_pw">密码</string>
+    <string name="text_login_pw_hint">你的 密码</string>
+    <string name="text_signup_email">电子邮件</string>
+    <string name="text_signup_email_hint">你的 电子邮件</string>
+    <string name="text_signup_nickname">昵称</string>
+    <string name="text_signup_nickname_hint">你的 昵称</string>
+    <string name="text_signup_customer">顾客</string>
+    <string name="text_signup_Entrepreneur">企业家</string>
+    <string name="text_login_button">登录</string>
+    <string name="text_signup_button">注册</string>
+    <string name="text_login_signup">还不是会员?</string>
+    <string name="text_signup_login">我有身份证!</string>
+    <string name="text_login_autologin">自动登录</string>
+    <string name="text_bottommenu_setmylocation">到我的位置</string>
+    <string name="text_bottommenu_searchmap_mapposition">在当前地图上搜索</string>
+    <string name="text_bottommenu_realtime_gps_turn_on">开启实时 GPS</string>
+    <string name="text_bottommenu_realtime_gps_turn_off">关闭实时 GPS</string>
+    <string name="text_bottommenu_cate_all">全部</string>
+    <string name="text_markerdetail_view_moreinfo">点击查看详情</string>
+    <string name="text_markerdetail_moreinfo_number">电话 ></string>
+    <string name="text_markerdetail_moreinfo_findload">获取路线 ></string>
+    <string name="text_markerdetail_moreinfo_menu">代表菜单</string>
+    <string name="text_markerdetail_moreinfo_storeinfo">公司信息</string>
+    <string name="text_bottommenu_cate_dist">按距离排序</string>
+    <string name="text_bottommenu_cate_evaluation">星级</string>
+    <string name="text_bottommenu_cate_review">评论数量</string>
+    <string name="text_allow_access_storage">请允许访问</string>
+    <string name="text_searchbox_alert">(已输入搜索词)</string>
+    <string name="text_login_for_facebook">使用 Facebook 登录</string>
+    <string name="text_login_for_naver">使用 Naver 登录</string>
+    <string name="text_login_for_kakao">使用 Kakao 登录</string>
+    <string name="text_login_for_google">使用 Google 登录</string>
+    <string name="text_signup_for_facebook">注册 Facebook</string>
+    <string name="text_signup_for_naver">注册 Naver</string>
+    <string name="text_signup_for_kakao">注册 Kakao</string>
+    <string name="text_signup_for_google">注册 Google</string>
+    <string name="text_save_search">搜索</string>
+    <string name="text_save_settings">保存设置</string>
+    <string name="text_option_localsearch_none"><![CDATA[―]]></string>
+    <string name="text_option_localsearch_ctp"><![CDATA[城市 ∙ 都会]]></string>
+    <string name="text_option_localsearch_sig"><![CDATA[县]]></string>
+    <string name="text_option_localsearch_emd"><![CDATA[镇]]></string>
+    <string name="text_option_localsearch_set_ctp"><![CDATA[请选择 城市 ∙ 大都会]]></string>
+    <string name="text_option_localsearch_set_sig"><![CDATA[请选择 县]]></string>
+    <string name="text_option_localsearch_set_emd"><![CDATA[请选择 城镇]]></string>
+    <string name="text_option_start_search_none">未选择区域\n根据您当前的位置搜索</string>
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--                               다이얼로그 텍스트관리                   -->
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <string name="common_wait_0MSG0101_loading_wait">请稍等</string>
+
+    <string name="common_finish_1MSG0101_finish_title">你想退出吗?</string>
+    <string name="common_finish_1MSG0102_finish_finish">结束</string>
+    <string name="common_finish_1MSG0103_finish_cancel">取消</string>
+
+    <string name="common_change_1MSG0101_change_title">你想改变吗?</string>
+    <string name="common_change_1MSG0102_change_ok">改变</string>
+    <string name="common_change_1MSG0103_change_cancel">取消</string>
+
+    <string name="common_message_2MSG0201_common_ok">好的</string>
+    <string name="common_message_2MSG0202_common_cancel">取消</string>
+    <string name="common_message_2MSG0203_common_finish">结束</string>
+
+    <string name="error_0CON0101_server_connect_network_title">请检查您的互联网连接</string>
+    <string name="error_0CON0102_server_connect_network_errorcode">@string/error_connect_network_CON01</string>
+
+    <string name="error_0CON0201_server_connect_server_title">对不起\n伺服器发生错误</string>
+    <string name="error_0CON0202_server_connect_server_errorcode">@string/error_connect_server_CON02</string>
+
+    <string name="error_0ERO0101_unusual_approach_title">这是一种不寻常的方法</string>
+
+    <string name="error_0ERO0201_language_change_title">对不起\n不支持此语言</string>
+    <string name="error_0ERO0202_language_change_ok">好的</string>
+    <string name="error_0ERO0203_language_change_errorcode">@string/error_change_language_ERO02</string>
+
+    <string name="text_bottommenu_alerttitle_realtime_gps_turn_on">您要开启实时 GPS 模式吗?\n(电池/数据使用量会增加)</string>
+    <string name="text_bottommenu_alerttitle_realtime_gps_turn_off">您确定要关闭实时 GPS 模式吗?</string>
+
+    <string name="text_list_alerttitle_nodata">数据不存在</string>
+
+    <string name="text_permission_alerttitle_gps_denied">当 GPS 权限被拒绝时\n应用程序功能受限</string>
+    <string name="text_permission_alertcancelbtn_gps_denied">好的</string>
+    <string name="text_permission_alertokbtn_gps_denied">GPS权限设置</string>
+
+    <string name="text_checkfunction_alerttitle_gps_off">GPS 已关闭\n请打开 GPS</string>
+    <string name="text_checkfunction_alertcancelbtn_gps_off">在没有 GPS 接收的情况下继续</string>
+    <string name="text_checkfunction_alertokbtn_gps_off">重试</string>
+
+    <string name="text_checkfunction_connect_reconnect">重新连接</string>
+
+    <string name="text_checkfunction_alerttitle_gps_connect">无法接收 GPS</string>
+    <string name="text_checkfunction_alertokbtn_gps_connect">GPS 重启</string>
+
+    <string name="text_checkfunction_alerttitle_minimap_restart">小地图已在运行\n是否要从该商店重新启动?</string>
+
+    <string name="text_permission_alerttitle_storage_denied">需要存储空间许可</string>
+
+    <string name="text_checkfunction_alerttitle_matching_memberinformation">没有匹配的会员信息</string>
+
+    <string name="text_checkfunction_alerttitle_missing_iddata">请输入您的身份证件</string>
+    <string name="text_checkfunction_alerttitle_missing_pwdata">请输入密码</string>
+    <string name="text_checkfunction_alerttitle_missing_nicknamedata">请输入您的昵称</string>
+
+    <string name="text_checkfunction_alerttitle_success_signup">会员注册成功</string>
+
+    <string name="text_checkfunction_alerttitle_check_idpw">请再次检查您输入的信息</string>
+    <string name="text_checkfunction_alerttitle_overlap_email">此电子邮件已存在</string>
+    <string name="text_checkfunction_alerttitle_overlap_nickname">此昵称已存在</string>
+
+    <string name="text_checkfunction_alerttitle_overlap_id">此帐号已注册</string>
+
+    <string name="text_checkfunction_alerttitle_logout">你想退出吗?</string>
+
+    <string name="error_0ERO0301_profileupload_file_read_title">对不起\n无法读取文件信息</string>
+    <string name="error_0ERO0302_profileupload_file_read_errorcode">@string/error_profileupload_ERO03</string>
+
+    <string name="error_0ERO0401_profileupload_file_load_title">上传文件失败\n(无法加载文件)</string>
+    <string name="error_0ERO0402_profileupload_file_load_errorcode">@string/error_profileupload_ERO04</string>
+
+    <string name="error_0ERO0501_profileupload_malformed_url_title">上传文件失败\n(无效的网址)</string>
+    <string name="error_0ERO0502_profileupload_malformed_url_errorcode">@string/error_profileupload_ERO05</string>
+
+    <string name="error_0ERO0601_profileupload_server_connect_title">上传文件失败\n(服务器有问题)</string>
+    <string name="error_0ERO0602_profileupload_server_connect_errorcode">@string/error_profileupload_ERO06</string>
+
+    <string name="text_checkfunction_alerttitle_fileupload_success">文件上传成功</string>
+
+    <string name="text_finish_alerttitle_login_success">登录</string>
+    <string name="text_finish_alerttitle_signup_success">您已注册</string>
+    <string name="text_checkfunction_alerttitle_signup_refusal">注册会员后请免费使用</string>
+
+    <string name="text_checkfunction_alerttitle_not_registered_id">您不是 [嘿] 的注册会员\n您想使用您输入的信息进行注册吗?</string>
+
+    <string name="text_checkfunction_alerttitle_login_for_facebook_loginfail">Facebook 登录失败\n如果问题仍然存在，请联系管理员</string>
+    <string name="text_checkfunction_alerttitle_login_for_naver_loginfail">Naver 登录失败\n如果问题仍然存在，请联系管理员</string>
+    <string name="text_checkfunction_alerttitle_login_for_kakao_loginfail">Kakao 登录失败\n如果问题仍然存在，请联系管理员</string>
+    <string name="text_checkfunction_alerttitle_login_for_google_loginfail">Google 登录失败\n如果问题仍然存在，请联系管理员</string>
+
+    <string name="text_checkfunction_alerttitle_login_for_facebook_loadingfail">Facebook 会员信息请求失败\n如果问题仍然存在，请联系管理员</string>
+    <string name="text_checkfunction_alerttitle_login_for_naver_loadingfail">Naver 会员信息请求失败\n如果问题仍然存在，请联系管理员</string>
+    <string name="text_checkfunction_alerttitle_login_for_kakao_loadingfail">Kakao 会员信息请求失败\n如果问题仍然存在，请联系管理员</string>
+    <string name="text_checkfunction_alerttitle_login_for_google_loadingfail">Google 会员信息请求失败\n如果问题仍然存在，请联系管理员</string>
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--                                배열 텍스트관리                         -->
+    <!--/////////////////////////////////////////////////////////////////////-->
+
+    <string-array name="array_store_registration_storecate_main">
+        <item>-- 업종 선택 --</item>
+        <item>포장마차</item>
+        <item>이동트럭</item>
+        <item>푸드트럭</item>
+        <item>좌판노점</item>
+        <item>기타 노점상</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_0">
+        <item>-- 메뉴 선택 --</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_1">
+        <item>붕어빵</item>
+        <item>호떡</item>
+        <item>옥수수</item>
+        <item>군고구마</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_2">
+        <item>통닭</item>
+        <item>족발</item>
+        <item>과일</item>
+        <item>채소</item>
+        <item>타코야끼</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_3">
+        <item>한식</item>
+        <item>일식</item>
+        <item>양식</item>
+        <item>퓨전</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_4">
+        <item>채소</item>
+        <item>생필품</item>
+        <item>골동품</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_5">
+        <item>기타</item>
+    </string-array>
+
+</resources>

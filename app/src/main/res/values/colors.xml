@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_softminor_color">#FDC0C0</color>
+    <color name="main_minor_color">#FF7E7E</color>
+    <color name="main_concept_color">#FF0000</color>
+    <color name="main_second_color">#980000</color>
+    <color name="sub_second_color">#FF6200EE</color>
+    <color name="sub_concept_color">#FF3700B3</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="soft_gray">#DCDCDC</color>
+    <color name="gray">#A6A6A6</color>
+    <color name="dark_gray">#424242</color>
+
+    <color name="bg_login_signup_facebook">#5476c8</color>
+    <color name="bg_login_signup_naver">#1ec800</color>
+    <color name="bg_login_signup_kakao">#ffeb00</color>
+    <color name="bg_login_signup_google">#e24939</color>
+
+    <color name="transparent">#CC000000</color>
+    <!--
+    투명도
+    100% — FF
+    90% — E6
+    80% — CC
+    70% — B3
+    60% — 99
+    50% — 80
+    40% — 66
+    30% — 4D
+    20% — 33
+    10% — 1A
+    0% — 00
+    -->
+</resources>

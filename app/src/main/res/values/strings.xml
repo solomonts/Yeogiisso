@@ -1,0 +1,337 @@
+<resources>
+    <string name="app_name">Yeogiisso</string>
+    <string name="app_copyright">Copyright © 2021 SolomonM</string>
+
+    <string name="optionmenu_shop">Street Shop</string>
+    <string name="optionmenu_1">Option Menu1</string>
+    <string name="optionmenu_2">Option Menu2</string>
+    <string name="optionmenu_3">Option Menu3</string>
+
+    <string name="tabmenu_bottomtab_nearby_shops">Nearby shops</string>
+    <string name="tabmenu_bottomtab_Favorites">Favorites</string>
+    <string name="drawermenu_option_detailsearch_title">Search requirement</string>
+    <string name="drawermenu_option_detailsearch_local">Local search</string>
+    <string name="drawermenu_option_detailsearch_price">Sale price</string>
+    <string name="drawermenu_option_detailsearch_sectors">Sectors</string>
+    <string name="drawermenu_option_detailsearch_cate">Category</string>
+    <string name="drawermenu_option_detailsearch_notice">(Initialize settings when closing the app)</string>
+    <string name="drawermenu_option_mapsetting_title">Map settings</string>
+    <string name="drawermenu_option_mapsetting_etc">Other settings</string>
+    <string name="drawermenu_option_mapsetting_radius">Search radius</string>
+    <string name="drawermenu_option_mapsetting_mapmode">Map mode</string>
+    <string name="drawermenu_option_mapsetting_mapmode_normal">Base map</string>
+    <string name="drawermenu_option_mapsetting_mapmode_terrain">Topographic map</string>
+    <string name="drawermenu_option_mapsetting_mapmode_hybrid">Hybrid map</string>
+    <string name="drawermenu_option_mapsetting_etc_thickness">Circle thickness</string>
+    <string name="drawermenu_option_mapsetting_etc_zoom_level">Zoom level</string>
+    <string name="drawermenu_option_mapsetting_notice">(Maintain settings when closing the app)</string>
+    <string name="drawermenu_setting_maintitle">Setting</string>
+    <string name="drawermenu_setting_changelanguage">Change Language</string>
+    <string name="drawermenu_setting_changetheme">Change Theme</string>
+    <string name="drawermenu_setting_changeprofile">Change Profile</string>
+    <string name="drawermenu_setting_qna">1:1 inquiry</string>
+    <string name="drawermenu_setting_terms">Terms of service</string>
+    <string name="drawermenu_setting_withdrawal">Withdrawal</string>
+    <string name="text_tutorial_search_detail">advanced search</string>
+    <string name="text_tutorial_call_searchbox">call search bar</string>
+    <string name="text_tutorial_change_service">service change</string>
+    <string name="text_tutorial_drag_resize">drag to resize</string>
+    <string name="text_tutorial_call_addon">add menu call</string>
+    <string name="text_tutorial_view_neverlook">don\'t look forward</string>
+
+    <string name="check_language">en</string>
+    <string name="noti_channel_id">noti_channel</string>
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--                               일반 텍스트관리                         -->
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <string name="text_ok">Ok</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_apply">Apply</string>
+    <string name="text_change">Change</string>
+    <string name="text_close">Close</string>
+    <string name="text_yes">yes</string>
+    <string name="text_no">no</string>
+    <string name="text_retry">Retry</string>
+    <string name="text_restart">Restart</string>
+    <string name="text_finish">Finish</string>
+    <string name="text_search">Search</string>
+    <string name="text_loading">Please Wait...</string>
+    <string name="text_loading_version_title">Version</string>
+    <string name="text_drawer_login_title">Login is Required</string>
+    <string name="text_drawer_logout_title">[Logout]</string>
+    <string name="text_drawer_management_store">Store Management</string>
+    <string name="text_drawer_management_review">Review Management</string>
+    <string name="text_drawer_management_reservation">Reservation Management</string>
+    <string name="text_settings_language_now">(Current Language)</string>
+    <string name="text_settings_language_change">Language</string>
+    <string name="text_settings_language_change_finish">Has been changed</string>
+    <string name="text_settings_mode_daymode">Light Theme</string>
+    <string name="text_settings_mode_darkmode">Dark Theme</string>
+    <string name="text_settings_mode_now">(Current Theme)</string>
+    <string name="text_settings_mode_change">Theme</string>
+    <string name="text_settings_mode_change_finish">Has been changed</string>
+    <string name="text_settings_server">Server</string>
+    <string name="text_settings_permission">Permission settings</string>
+    <string name="text_settings_event">Event</string>
+    <string name="text_settings_notice">Notice</string>
+    <string name="text_settings_certification">Certification center</string>
+    <string name="text_login_id">ID</string>
+    <string name="text_login_id_hint">Your ID</string>
+    <string name="text_login_pw">PW</string>
+    <string name="text_login_pw_hint">Your Password</string>
+    <string name="text_signup_email">E-Mail</string>
+    <string name="text_signup_email_hint">Your E-Mail</string>
+    <string name="text_signup_nickname">Nickname</string>
+    <string name="text_signup_nickname_hint">Your Nickname</string>
+    <string name="text_signup_customer">Customer</string>
+    <string name="text_signup_Entrepreneur">Entrepreneur</string>
+    <string name="text_login_button">Login</string>
+    <string name="text_signup_button">Signup</string>
+    <string name="text_login_signup">Not a member yet?</string>
+    <string name="text_signup_login">I have an ID!</string>
+    <string name="text_login_autologin">AutoLogin</string>
+    <string name="text_bottommenu_setmylocation">To my location</string>
+    <string name="text_bottommenu_searchmap_mapposition">Search on current map</string>
+    <string name="text_bottommenu_realtime_gps_turn_on">Turn on real-time GPS</string>
+    <string name="text_bottommenu_realtime_gps_turn_off">Turn off real-time GPS</string>
+    <string name="text_bottommenu_cate_all">All</string>
+    <string name="text_markerdetail_view_moreinfo">Click to view details</string>
+    <string name="text_markerdetail_moreinfo_number">Telephone ></string>
+    <string name="text_markerdetail_moreinfo_findload">Get Directions ></string>
+    <string name="text_markerdetail_moreinfo_menu">Representative menu</string>
+    <string name="text_markerdetail_moreinfo_storeinfo">Company information</string>
+    <string name="text_bottommenu_cate_dist">In order of distance</string>
+    <string name="text_bottommenu_cate_evaluation">Star rating</string>
+    <string name="text_bottommenu_cate_review">Number of reviews</string>
+    <string name="text_allow_access_storage">Please allow access</string>
+    <string name="text_searchbox_alert">(A search term has been entered)</string>
+    <string name="text_login_for_facebook">Login with Facebook</string>
+    <string name="text_login_for_naver">Login with Naver</string>
+    <string name="text_login_for_kakao">Login with Kakao</string>
+    <string name="text_login_for_google">Login with Google</string>
+    <string name="text_signup_for_facebook">Sign up with Facebook</string>
+    <string name="text_signup_for_naver">Sign up with Naver</string>
+    <string name="text_signup_for_kakao">Sign up with Kakao</string>
+    <string name="text_signup_for_google">Sign up with Google</string>
+    <string name="text_save_search">Search</string>
+    <string name="text_save_settings">Save settings</string>
+    <string name="text_option_localsearch_none"><![CDATA[―]]></string>
+    <string name="text_option_localsearch_ctp"><![CDATA[City ∙ Metropolis]]></string>
+    <string name="text_option_localsearch_sig"><![CDATA[County]]></string>
+    <string name="text_option_localsearch_emd"><![CDATA[Town]]></string>
+    <string name="text_option_localsearch_set_ctp"><![CDATA[Please select City ∙ Metropolis]]></string>
+    <string name="text_option_localsearch_set_sig"><![CDATA[Please select County]]></string>
+    <string name="text_option_localsearch_set_emd"><![CDATA[Please select Town]]></string>
+    <string name="text_option_start_search_none">No region selected\nSearch based on your current location</string>
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--                               다이얼로그 텍스트관리                   -->
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <string name="common_wait_0MSG0101_loading_wait">Please wait</string>
+
+    <string name="common_finish_1MSG0101_finish_title">Do you want to quit?</string>
+    <string name="common_finish_1MSG0102_finish_finish">Finish</string>
+    <string name="common_finish_1MSG0103_finish_cancel">Cancel</string>
+
+    <string name="common_change_1MSG0101_change_title">Do you want to change?</string>
+    <string name="common_change_1MSG0102_change_ok">Change</string>
+    <string name="common_change_1MSG0103_change_cancel">Cancel</string>
+
+    <string name="common_message_2MSG0201_common_ok">Ok</string>
+    <string name="common_message_2MSG0202_common_cancel">Cancel</string>
+    <string name="common_message_2MSG0203_common_finish">Finish</string>
+
+    <string name="error_0CON0101_server_connect_network_title">Please check your internet connection</string>
+    <string name="error_0CON0102_server_connect_network_errorcode">@string/error_connect_network_CON01</string>
+
+    <string name="error_0CON0201_server_connect_server_title">Sorry\nThere was an error on the server</string>
+    <string name="error_0CON0202_server_connect_server_errorcode">@string/error_connect_server_CON02</string>
+
+    <string name="error_0ERO0101_unusual_approach_title">This is an unusual approach</string>
+
+    <string name="error_0ERO0201_language_change_title">Sorry\nThis language is not supported</string>
+    <string name="error_0ERO0202_language_change_ok">Ok</string>
+    <string name="error_0ERO0203_language_change_errorcode">@string/error_change_language_ERO02</string>
+
+    <string name="text_bottommenu_alerttitle_realtime_gps_turn_on">Do you want to turn on real-time GPS mode?\n(Battery/Data usage will increase)</string>
+    <string name="text_bottommenu_alerttitle_realtime_gps_turn_off">Are you sure you want to turn off real-time GPS mode?</string>
+
+    <string name="text_list_alerttitle_nodata">The data does not exist</string>
+
+    <string name="text_permission_alerttitle_gps_denied">When GPS permission is denied\nApp functionality is limited</string>
+    <string name="text_permission_alertcancelbtn_gps_denied">Okay</string>
+    <string name="text_permission_alertokbtn_gps_denied">GPS permission setting</string>
+
+    <string name="text_checkfunction_alerttitle_gps_off">GPS is off\nPlease turn on GPS</string>
+    <string name="text_checkfunction_alertcancelbtn_gps_off">Continue without GPS reception</string>
+    <string name="text_checkfunction_alertokbtn_gps_off">Retry</string>
+
+    <string name="text_checkfunction_connect_reconnect">Reconnected</string>
+
+    <string name="text_checkfunction_alerttitle_gps_connect">GPS cannot be received</string>
+    <string name="text_checkfunction_alertokbtn_gps_connect">GPS Reset</string>
+
+    <string name="text_checkfunction_alerttitle_minimap_restart">The minimap is already running\nDo you want to restart with that store?</string>
+
+    <string name="text_permission_alerttitle_storage_denied">Requires permission for storage space</string>
+
+    <string name="text_checkfunction_alerttitle_matching_memberinformation">No matching member information</string>
+
+    <string name="text_checkfunction_alerttitle_missing_iddata">Please enter your ID</string>
+    <string name="text_checkfunction_alerttitle_missing_pwdata">Please enter a password</string>
+    <string name="text_checkfunction_alerttitle_missing_nicknamedata">Please enter your nickname</string>
+
+    <string name="text_checkfunction_alerttitle_success_signup">Membership registration was successful</string>
+
+    <string name="text_checkfunction_alerttitle_check_idpw">Please check the information you entered again</string>
+    <string name="text_checkfunction_alerttitle_overlap_email">This email already exists</string>
+    <string name="text_checkfunction_alerttitle_overlap_nickname">This nickname already exists</string>
+
+    <string name="text_checkfunction_alerttitle_overlap_id">This account is already registered</string>
+
+    <string name="text_checkfunction_alerttitle_logout">Do you want to log out?</string>
+
+    <string name="error_0ERO0301_profileupload_file_read_title">Sorry\nThe file information could not be read</string>
+    <string name="error_0ERO0302_profileupload_file_read_errorcode">@string/error_profileupload_ERO03</string>
+
+    <string name="error_0ERO0401_profileupload_file_load_title">Failed to upload file\n(Failed to load the file)</string>
+    <string name="error_0ERO0402_profileupload_file_load_errorcode">@string/error_profileupload_ERO04</string>
+
+    <string name="error_0ERO0501_profileupload_malformed_url_title">File upload failed\n(Invalid URL)</string>
+    <string name="error_0ERO0502_profileupload_malformed_url_errorcode">@string/error_profileupload_ERO05</string>
+
+    <string name="error_0ERO0601_profileupload_server_connect_title">File upload failed\n(There was a problem with the server)</string>
+    <string name="error_0ERO0602_profileupload_server_connect_errorcode">@string/error_profileupload_ERO06</string>
+
+    <string name="text_checkfunction_alerttitle_fileupload_success">File upload was successful</string>
+
+    <string name="text_finish_alerttitle_login_success">Logged in</string>
+    <string name="text_finish_alerttitle_signup_success">You have been registered</string>
+    <string name="text_checkfunction_alerttitle_signup_refusal">Please use it after registering as a member for free</string>
+
+    <string name="text_checkfunction_alerttitle_not_registered_id">You are not a registered member in [Yeogiisso]\nDo you want to register with the information you entered?</string>
+
+    <string name="text_checkfunction_alerttitle_login_for_facebook_loginfail">Facebook login failed\nIf the problem persists, please contact the administrator</string>
+    <string name="text_checkfunction_alerttitle_login_for_naver_loginfail">Naver login failed\nIf the problem persists, please contact the administrator</string>
+    <string name="text_checkfunction_alerttitle_login_for_kakao_loginfail">Kakao login failed\nIf the problem persists, please contact the administrator</string>
+    <string name="text_checkfunction_alerttitle_login_for_google_loginfail">Google login failed\nIf the problem persists, please contact the administrator</string>
+
+    <string name="text_checkfunction_alerttitle_login_for_facebook_loadingfail">Facebook member information request failed\nIf the problem persists, please contact the administrator</string>
+    <string name="text_checkfunction_alerttitle_login_for_naver_loadingfail">Naver member information request failed\nIf the problem persists, please contact the administrator</string>
+    <string name="text_checkfunction_alerttitle_login_for_kakao_loadingfail">Kakao member information request failed\nIf the problem persists, please contact the administrator</string>
+    <string name="text_checkfunction_alerttitle_login_for_google_loadingfail">Google member information request failed\nIf the problem persists, please contact the administrator</string>
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--                                배열 텍스트관리                         -->
+    <!--/////////////////////////////////////////////////////////////////////-->
+
+    <string-array name="array_store_registration_storecate_main">
+        <item>-- 업종 선택 --</item>
+        <item>포장마차</item>
+        <item>이동트럭</item>
+        <item>푸드트럭</item>
+        <item>좌판노점</item>
+        <item>기타 노점상</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_0">
+        <item>-- 메뉴 선택 --</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_1">
+        <item>붕어빵</item>
+        <item>호떡</item>
+        <item>옥수수</item>
+        <item>군고구마</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_2">
+        <item>통닭</item>
+        <item>족발</item>
+        <item>과일</item>
+        <item>채소</item>
+        <item>타코야끼</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_3">
+        <item>한식</item>
+        <item>일식</item>
+        <item>양식</item>
+        <item>퓨전</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_4">
+        <item>채소</item>
+        <item>생필품</item>
+        <item>골동품</item>
+    </string-array>
+
+    <string-array name="array_store_registration_storecate_sub_5">
+        <item>기타</item>
+    </string-array>
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--                               서버정보, 키 관리                           -->
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <string name="server_info_url">dolsup.synology.me</string>
+    <integer name="server_info_port">8080</integer>
+    <integer name="server_timeout_limit">3000</integer>A component required a bean named
+    'accountDAO' that could not be found
+    <string name="kakao_app_key">kakaoa5c9f6a21cb8445e26422cff84d6efc6</string> <!--카카오 네이티브 API-->
+    <string name="google_maps_key_directions">AIzaSyBHsqGQ1IE8C1f40II1wKmWfyJFtWX19vM</string> <!--구글맵 길찾기 API-->
+    <string name="server_api_login">http://dolsup.synology.me:8080/account/login</string><!--로그인-->
+    <string name="server_api_signup">http://dolsup.synology.me:8080/account/signup</string><!--회원가입-->
+    <string name="server_api_localsearch_ctp">http://dolsup.synology.me:8080/search/searchCtp</string><!--지역검색-시도-->
+    <string name="server_api_localsearch_sig">http://dolsup.synology.me:8080/search/searchSig</string><!--지역검색-구군-->
+    <string name="server_api_localsearch_emd">http://dolsup.synology.me:8080/search/searchEmd</string><!--지역검색-읍면동-->
+    <string name="server_api_list_storelist">http://dolsup.synology.me:8080/search/searchStoreList</string><!--주변상점 리스트-->
+    <string name="server_api_store_registration">http://dolsup.synology.me:8080/store/registration</string><!--점포 등록-->
+    <string name="server_api_store_registration_upload">http://dolsup.synology.me:8080/store/fileupload.do</string><!--점포사진 등록-->
+    <string name="server_api_list_store_registration">http://dolsup.synology.me:8080/store/registration_list</string><!--등록된 점포 리스트 (사업자전용)-->
+    <!--주변상점 리스트-->
+    <!--
+    <string name="server_api_consumer_storelist">http://dolsup.synology.me:8080/consumer/searchStore</string>
+    -->
+    <!--점포 등록-->
+    <!--
+    <string name="server_api_consumer_insertstore">http://dolsup.synology.me:8080/consumer/insertStore</string>
+    -->
+    <!--등록된 점포 리스트 (사업자전용)-->
+    <!--
+    <string name="server_api_consumer_storelist_registration">http://dolsup.synology.me:8080/consumer/searchRegistrationStore</string>
+    -->
+    <!--프로필사진 업로드-->
+    <!--
+    <string name="server_api_consumer_fileupload">http://dolsup.synology.me:8080/consumer/fileTest.do</string>
+    -->
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--                               에러코드관리                           -->
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <string name="error_unusualapproach_ERO01">ERO01EUE</string> <!--비정상적인 접근-->
+    <string name="error_change_language_ERO02">ERO02ECLE</string> <!--지원하지 않는 언어-->
+    <string name="error_connect_network_CON01">CON01ECNC</string> <!--인터넷연결 끊김-->
+    <string name="error_connect_server_CON02">CON02ECSC</string> <!--서버연결 끊김-->
+    <string name="error_profileupload_ERO03">ERO03EP</string> <!--프로필업로드 (파일정보를 읽어올 수 없음)-->
+    <string name="error_profileupload_ERO04">ERO04EP</string> <!--프로필업로드 (파일정보를 불러올 수 없음)-->
+    <string name="error_profileupload_ERO05">ERO05EP</string> <!--프로필업로드 (잘못된 URL)-->
+    <string name="error_profileupload_ERO06">ERO06EP</string> <!--프로필업로드 (서버연결 끊김)-->
+
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <!--                               버전관리                               -->
+    <!--/////////////////////////////////////////////////////////////////////-->
+    <string name="app_version">0.1.05a</string>
+    <string name="app_version_code">6</string>
+    <!--
+             0.0.01a 초기 셋팅 버전 (알파 버전) / versionCode : 1
+             0.1.01a 기본 UI 완성 버전 (알파 버전) / versionCode : 2
+             0.1.02a 기본 UI 개선 버전 (알파 버전) / versionCode : 3
+             0.1.03a 언어설정기능 완성 버전 (알파 버전) / versionCode : 4
+             0.1.04a 테마변경기능 완성 버전 (알파 버전) / versionCode : 5
+ [현재버전]   0.1.05a 하단탭 UI 완성 버전 (알파 버전) / versionCode : 6
+             0.1.06a 하단탭 UI 개선 버전 (알파 버전) / versionCode : 7
+             0.1.07a 검색버튼 UI 완성 버전 (알파 버전) / versionCode : 8
+             0.1.08a 검색버튼 UI 개선 버전 (알파 버전) / versionCode : 9
+    -->
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loading.Ui_Splash_Activity"
+    android:id="@+id/layout_loadinglayout_mainframe"
+    android:background="?attr/color_common_white_darkgray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_loading_app_name"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/app_name"
+                android:textSize="30dp"
+                android:textColor="?attr/color_common_secondcolor_white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="40dp" />
+
+            <TextView
+                android:id="@+id/tv_loading_app_loading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/text_loading"
+                android:textSize="15dp"
+                android:textColor="?attr/color_common_secondcolor_white"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_loading_portrait"
+        android:layout_width="360dp"
+        android:layout_height="306dp"
+        android:layout_gravity="center|bottom"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="bottom|right">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="Ver "
+            android:textSize="15dp"
+            android:textColor="?attr/color_common_secondcolor_white"
+            android:textStyle="bold"
+            android:gravity="center|right"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/app_version"
+            android:textSize="15dp"
+            android:textColor="?attr/color_common_secondcolor_white"
+            android:textStyle="bold"
+            android:gravity="center|right"/>
+    </LinearLayout>
+
+</FrameLayout>

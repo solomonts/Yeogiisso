@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="color" name="color_bg_maincardview"/>
+    <attr format="color" name="color_bg_drawer_option"/>
+    <attr format="color" name="color_bg_drawer_setting"/>
+    <attr format="color" name="color_bg_bottom_mainframe"/>
+
+    <attr format="color" name="color_common_secondcolor_white"/>
+    <attr format="color" name="color_common_secondcolor_black"/>
+    <attr format="color" name="color_common_secondcolor_conceptcolor"/>
+    <attr format="color" name="color_common_black_conceptcolor"/>
+    <attr format="color" name="color_common_black_softgray"/>
+    <attr format="color" name="color_common_black_gray"/>
+    <attr format="color" name="color_common_black_darkgray"/>
+    <attr format="color" name="color_common_black_white"/>
+    <attr format="color" name="color_common_white_darkgray"/>
+    <attr format="color" name="color_common_conceptcolor_softgray"/>
+    <attr format="color" name="color_common_conceptcolor_gray"/>
+    <attr format="color" name="color_common_conceptcolor_black"/>
+    <attr format="color" name="color_common_softgray_black"/>
+
+</resources>
